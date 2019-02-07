@@ -1,6 +1,6 @@
 # Use 2048 bit Diffie-Hellman group for ssl.
 # https://wiki.mozilla.org/Security/Server_Side_TLS#Pre-defined_DHE_groups
-# This can ve removed if only tls1.2 is used.
+# This can be removed if only TLS 1.2 is used.
 - name: Copy DH parameters
   copy:
     src: DH_parameters.pem
